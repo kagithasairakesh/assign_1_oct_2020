@@ -14,6 +14,7 @@ Actual outcome: acceptQuantity
 	quantity: uint256: 100
 	requestpayment : 1000
 	pay: string: 1000
+	ether: 99.99999999999898153
 
 Result: Pass
 ================================================================================================
@@ -21,58 +22,76 @@ Account 2: 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
 
 Test name: Create new order of 200
 
-Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+Test Description: User calls the acceptquantity function and enters the beach_id and quantity.
 
-Desired outcome: I should be able to verify on the Remix IDE that my new order has been
-created and the status has been set to “New” and Quantity has been set to the number I
-supplied.
+Desired outcome: On clicking the quantity function we will be able to see the quantity. and then we will click on the requestpayment function 
+		is used in the order to pay. if we see the pay successful you need to click on the pay function.
 
-Actual outcome: On testing, I validated that the actual outcome matches the desired
-outcome
+Actual outcome: acceptQuantity
+		cvalue: 200
+		vid: 102
+
+	quantity: uint256: 200
+	requestpayment : 2000
+	pay: string: 2000
+	
+	ether: 99.999999999999402192
 
 Result: Pass
 ================================================================================================
 Account 3: 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
 
-Test name: Create new order
+Test name: Create new order of 300
 
-Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+Test Description: User calls the acceptquantity function and enters the beach_id and quantity.
 
-Desired outcome: I should be able to verify on the Remix IDE that my new order has been
-created and the status has been set to “New” and Quantity has been set to the number I
-supplied.
+Desired outcome: On clicking the quantity function we will be able to see the quantity. and then we will click on the requestpayment function 
+		is used in the order to pay. if we see the pay successful you need to click on the pay function.
 
-Actual outcome: On testing, I validated that the actual outcome matches the desired
-outcome
+Actual outcome: acceptQuantity
+		cvalue: 300
+		vid: 103
+
+	quantity: uint256: 300
+	requestpayment : 3000
+	pay: string: 3000
+	ehter: 99.99999999998962202
 
 Result: Pass
 ================================================================================================
 Account 4: 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB
 
-Test name: Create new order
+Test name: Create new order of 400
 
-Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+Test Description: User calls the acceptquantity function and enters the beach_id and quantity.
 
-Desired outcome: I should be able to verify on the Remix IDE that my new order has been
-created and the status has been set to “New” and Quantity has been set to the number I
-supplied.
+Desired outcome: On clicking the quantity function we will be able to see the quantity. and then we will click on the requestpayment function 
+		is used in the order to pay. if we see the pay successful you need to click on the pay function.
 
-Actual outcome: On testing, I validated that the actual outcome matches the desired
-outcome
+Actual outcome: acceptQuantity
+		cvalue: 400
+		vid: 104
+
+	quantity: uint256: 400
+	requestpayment : 4000
+	pay: string: 4000
+	ether: 99.9999999999426924
 
 Result: Pass
 ================================================================================================
 Account 5: 0x617F2E2fD72FD9D5503197092aC168c91465E7f2
+Test Description: User calls the acceptquantity function and enters the beach_id and quantity.
 
-Test name: Create new order
+Desired outcome: On clicking the quantity function we will be able to see the quantity. and then we will click on the requestpayment function 
+		is used in the order to pay. if we see the pay successful you need to click on the pay function.
 
-Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+Actual outcome: acceptQuantity
+		cvalue: 500
+		vid: 10
 
-Desired outcome: I should be able to verify on the Remix IDE that my new order has been
-created and the status has been set to “New” and Quantity has been set to the number I
-supplied.
-
-Actual outcome: On testing, I validated that the actual outcome matches the desired
-outcome
+	quantity: uint256: 500
+	requestpayment : 5000
+	pay: string: 5000
+	ether: 99.9999999999989962202
 
 Result: Pass
