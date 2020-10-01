@@ -1,0 +1,78 @@
+Account 1: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+
+Test name: Create new order of 100
+
+Test Description: User calls the acceptquantity function and enters the beach_id and quantity.
+
+Desired outcome: On clicking the quantity function we will be able to see the quantity. and then we will click on the requestpayment function 
+		is used in the order to pay. if we see the pay successful you need to click on the pay function.
+
+Actual outcome: acceptQuantity
+		cvalue: 100
+		vid: 101
+
+	quantity: uint256: 100
+	requestpayment : 1000
+	pay: string: 1000
+
+Result: Pass
+================================================================================================
+Account 2: 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
+
+Test name: Create new order
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been
+created and the status has been set to “New” and Quantity has been set to the number I
+supplied.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired
+outcome
+
+Result: Pass
+================================================================================================
+Account 3: 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+
+Test name: Create new order
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been
+created and the status has been set to “New” and Quantity has been set to the number I
+supplied.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired
+outcome
+
+Result: Pass
+================================================================================================
+Account 4: 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB
+
+Test name: Create new order
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been
+created and the status has been set to “New” and Quantity has been set to the number I
+supplied.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired
+outcome
+
+Result: Pass
+================================================================================================
+Account 5: 0x617F2E2fD72FD9D5503197092aC168c91465E7f2
+
+Test name: Create new order
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been
+created and the status has been set to “New” and Quantity has been set to the number I
+supplied.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired
+outcome
+
+Result: Pass
